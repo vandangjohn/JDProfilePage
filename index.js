@@ -54,8 +54,10 @@ for (var item of listItems)
     });
 }
 
+
+//Handle Project Buttons
 function linkToProj(url)
 {
     window.location = url;
-    console.log("Redirecting");
+    console.log(`Navigating to ${url}`);
 }
