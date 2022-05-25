@@ -1,0 +1,45 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+}
+
+.bg1, .bg2
+{
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+
+.bg1
+{
+    clip-path: polygon(69% 68%, 100% 30%, 100% 50%, 100% 100%, 0 100%, 39% 86%);
+    z-index: -1;
+    background-color: #00BAC8;
+}
+
+.bg2
+{
+    clip-path: polygon(61% 63%, 100% 17%, 100% 50%, 100% 100%, 0 100%, 24% 86%);
+    z-index: -2;
+    background-color: #00D6E6;
+}
+
+
+.navbar-custom, .btn
+{
+    background-color: #00BAC8;
+    color:#ffffff;
+}
+
+#pageTitle 
+{
+    font-family: 'Lucida Handwriting';
+    color: #fafafa;
+    text-shadow: 0 0 5px #00BAC8;
+}
+
+.active
+{
+    background-color: #00BAC8 !important;
+}

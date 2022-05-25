@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Dang's Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <div class="bg1"></div>
+    <div class="bg2"></div>
+    
+    <nav class="navbar navbar-custom">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1"></span>
+        </div>
+      </nav>
+
+    <div class="container">
+
+        <div class="row mt-4">
+            <div class="col">
+                <h1 id="pageTitle">John Dang</h1>
+            </div>
+        </div>
+
+        <div class="row mt-4" name="bio">
+            <div class="col-sm-12 col-md-4">
+               <img src="assets/portrait.JPG" alt="Picture of John Dang" class="img-thumbnail profilePic" style="width:90%; max-height: 215px;">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <p>
+                    Hello, thanks for stopping by!
+                    My name is John Dang and I am currently an IT professional who has a huge interest
+                    in programming and technology. Though I did not graduate with a technical degree, 
+                    I spent a lot of my own time outside of work learning new skills and programming languages. 
+                    My goal is continue growing my knowledge in the industry and implement newfound skills into 
+                    my day to day work.
+                </p>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <h5>Feel free to reach out on Social Media:</h3>
+                <ul class="list-group">
+                    <a href="https://www.linkedin.com/in/vandangjohn" class="list-group-item">LinkedIn</a>
+                    <a href="https://www.youtube.com/channel/UCLPP5JiFKL4pMp6caBMUinA" class="list-group-item">Youtube</a>
+                    <a href="https://github.com/metainmotion" class="list-group-item">GitHub</a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-4" name="projects">
+            <div class=" card col-sm-12 col-md-5 col-lg-5 ms-3 px-0">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="assets/attendanceSample.png" class="text-start img-fluid rounded-start" alt="picture of a login page for attendance app" style="width:100%; height:100%;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Register and Attendance App</h5>
+                            <p class="card-text">This project was created for the purpose of streamlining student registration and weekly attendance for my youth group. It is a mobile application built with Xamarin Forms and C# and utilizes Google Cloud Firestore to authenticate users and store data.</p>
+                            <button class="btn btn-info" id="attendProjectBtn">Source</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card col-sm-12 col-md-5 col-lg-5 ms-auto px-0">
+                <div class="row g-0">
+                    <div class="col-md-4 align-items-start">
+                        <img src="assets/twitterBot.png" class="img-fluid rounded-start" alt="picture of a snippet of code for twitter automation script" style="width:100%; height:100%;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Twitter Automation</h5>
+                            <p class="card-text">I created this project to address my curiousity of whether I would be able to gain a big Twitter following by retweeting and liking tweets from a specific niche. This console application uses the Twitter API to automate events such as, direct messaging, retweeting, and liking</p>
+                            <button class="btn btn-info" id="tweetProjectBtn">Source</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3" name="dailyQuote">
+            <div class="card px-0">
+                <div class="card-header">
+                  Quote
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote">
+                    <p id="jokeSetup"></p>
+                    <p id="jokeDelivery"></p>
+                    <footer class="blockquote-footer">Credits to <cite title="Source Title">https://v2.jokeapi.dev</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
